@@ -7,7 +7,7 @@ setup(name='braintree',
   author='MM',
   author_email='matchman@redso.com.hk',
   license='MIT',
-  packages=['braintree'],
+  packages=['braintree', 'braintree.exceptions', 'braintree.merchant_account', 'braintree.ssl', 'braintree.util'],
   install_requires=[
   'requests',
   'requests-toolbelt',
